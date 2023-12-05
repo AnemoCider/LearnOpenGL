@@ -71,11 +71,11 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>E:\yjw\Graphics\Learning\Readings\LearnOpenGL\glfw-3.3.8\include;$(IncludePath)</IncludePath>
+    <IncludePath>E:\yjw\Graphics\Learning\Readings\LearnOpenGL\glfw-3.3.8\include;E:\yjw\Graphics\Learning\Readings\LearnOpenGL\Projects\01_Start;$(IncludePath)</IncludePath>
     <LibraryPath>E:\yjw\Graphics\Learning\Readings\LearnOpenGL\glfw-3.3.8\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>E:\yjw\Graphics\Learning\Readings\LearnOpenGL\glfw-3.3.8\include;$(IncludePath)</IncludePath>
+    <IncludePath>E:\yjw\Graphics\Learning\Readings\LearnOpenGL\glfw-3.3.8\include;E:\yjw\Graphics\Learning\Readings\LearnOpenGL\Projects\01_Start;$(IncludePath)</IncludePath>
     <LibraryPath>E:\yjw\Graphics\Learning\Readings\LearnOpenGL\glfw-3.3.8\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -139,6 +139,9 @@
   <ItemGroup>
     <ClCompile Include="..\src\glad.c" />
     <ClCompile Include="HelloWindow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="01_Exercises.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
