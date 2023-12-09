@@ -16,6 +16,9 @@
     <Filter Include="Code">
       <UniqueIdentifier>{aecd3145-c1d5-43a3-a34f-1431931ee15d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{c4508817-28bf-4aab-97df-5f6d1e82dad8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HelloWindow.cpp">
@@ -26,8 +29,11 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="01_Exercises.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <None Include="Shader\basic.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\basic.vert">
+      <Filter>Shader</Filter>
+    </None>
   </ItemGroup>
 </Project>

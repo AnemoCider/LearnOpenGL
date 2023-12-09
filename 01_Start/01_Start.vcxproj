@@ -141,7 +141,8 @@
     <ClCompile Include="HelloWindow.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="01_Exercises.h" />
+    <None Include="Shader\basic.frag" />
+    <None Include="Shader\basic.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
