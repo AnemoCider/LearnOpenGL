@@ -1,0 +1,5 @@
+﻿  Render.cpp
+E:\yjw\Graphics\Learning\Readings\LearnOpenGL\Projects\include\Model.h(124,46): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  (compiling source file 'Render.cpp')
+  
+  03_Model.vcxproj -> E:\yjw\Graphics\Learning\Readings\LearnOpenGL\Projects\03_Model\x64\Debug\03_Model.exe
